@@ -1,0 +1,23 @@
+body {
+
+	width: 600px;
+}
+	.st0{fill:red;}
+	.st1{fill:#FCDB0A;}
+	.st2{fill:#FFFFFF;}
+	.st3{fill-opacity:0;}
+	.st4{fill:url(#dTBLzUlrw_1_);}
+	.st5{fill:url(#d6BEw7KhXm_1_);}
+	.st6{fill:#070707;}
+	.st7{fill-opacity:0;stroke:#000000;stroke-width:5;}
+
+	.circles {
+		transform-origin: center center;
+		-webkit-transform-origin: center center;
+	}
+
+
+	.Juaguar {
+		transform-origin: center center;
+		-webkit-transform-origin: center center;
+	}
