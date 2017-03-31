@@ -1,0 +1,31 @@
+/*  comentarios  */
+/* selector {propiedad: valor;} */
+@import url('https://fonts.googleapis.com/css?family=Barrio');
+
+h1 {
+	background-color: #2718FF;
+	font-size: 49px;
+}
+h2 {
+	color: green;
+	font-family: Barrio, cursive;
+	font-size: 4em;
+	background-color: yellow;	
+}
+#titulo {
+	font-size: 72px;
+}
+.texto {
+	text-align: center;
+	background-color: #42FFC9;
+	/* los hexadecimales corresponden los primeros 2 digitos al nivel de R que 
+	hay en el archivo, los siguientes dos, sobre el nivel de G, y los ultimos 2 
+	al nivel de B. 	*/
+	border: 1px solid black;
+	margin: 10px 10px 10px 10px;
+	/* los valores de pixeles del margen se refieren primero
+	al superior, luego se desplaza en dirección a las manecillas del reloj*/
+	padding: 12px;
+	width: 50%;
+}
+

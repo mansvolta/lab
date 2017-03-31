@@ -1,0 +1,34 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.cuadro-master{
+	background-image: url(../img/rick_party.jpg);
+	background-size: 100%;
+	height: 360px;
+	width: 640px;
+}
+.imagen1 {
+	width: 640px;
+	position: relative;
+}
+H1 {
+	font-family: 'Roboto Mono', monospace;
+	font-family: 'Roboto', sans-serif;
+	margin: 30px;
+}
+.texto {
+	font-family: 'Roboto Mono', monospace;
+	background-color: red;
+	color: white;
+	margin: 30px;
+	padding: 15px;
+
+}
+.dad {
+	position: absolute;
+}
+.son {
+	position: absolute;
+	color: white;
+}

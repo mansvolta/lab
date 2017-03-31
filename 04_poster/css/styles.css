@@ -1,0 +1,46 @@
+body{
+	margin: 0 auto 0 auto;
+	width: 640px;
+	font-family: 'Advent Pro', sans-serif;
+	font-style: italic;
+	font-size: 10px;
+    letter-spacing: 1px;
+	color: #5d379e;
+}
+.containers {
+	background-color: #a1dce4;
+	position: relative;
+}
+.orange {
+	color: #ff3333;
+}
+#dates {
+	height: 150px;
+}
+.rightp {
+	padding-right: 50px;
+}
+#dad {
+	height: 680px;
+}
+.imagen1 {
+	width: 85%;
+	position:absolute;
+	margin:0 auto 0 55px;
+}
+.son {
+	position: absolute;
+	margin:110px auto 0 55px;
+	line-height: 1;
+}
+#whites {
+	color: white;
+	position: absolute;
+	margin:310px auto 0 355px; 
+	line-height: 5;
+	text-align: left;
+}
+#data {
+	height:80px;
+	padding-left: 55px;
+}

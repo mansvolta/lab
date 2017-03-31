@@ -1,0 +1,23 @@
+
+.fondo {
+	background-color: #3d77c0;
+	height: 700px;
+	width: 500px;
+	padding: 5% 10% 5% 10%;
+	margin: 0 auto 0 auto; 
+}
+.oscuro {
+	background-color: #0c1c3c;
+	height: 55%;
+}
+.claro {
+	margin-top: 10px;
+	background-color: #3a65a5;
+	height: 19%;
+}
+.gris {
+	margin-top: 10px;
+	background-color: #bcccec;
+	height: 21%;
+}
+

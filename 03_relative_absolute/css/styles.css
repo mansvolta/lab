@@ -1,0 +1,49 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.arriba {
+	background-color: black;
+	height: 60px;
+	width: 100%;
+	opacity: 0.5;
+	position: fixed;
+}
+
+.general {
+	border: 1px solid black;
+	margin: 20px auto 0 auto;	
+	width: 530px;
+	padding: 20px 0 0 20px;
+	position: relative;
+}
+
+.uno, .dos, .tres, .cuatro, .cinco, .seis {
+	display: inline-block;
+	margin: 0 20px 20px 0;
+	width: 150px;
+	height: 150px;
+}
+.uno {
+	background-color: blue;
+}
+.dos {
+	background-color: red;
+	border: inherit;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.tres {
+	background-color: purple;
+}
+.cuatro {
+	background-color: yellow;
+}
+.cinco {
+	background-color: orange;
+}
+.seis {
+	background-color: brown;
+}
