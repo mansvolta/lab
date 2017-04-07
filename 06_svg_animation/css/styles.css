@@ -1,23 +1,62 @@
 body {
 	margin: 0 auto 0 auto;
 	width: 50%;
+	background-color: white;
+}	
+/*
+#arte{
+	margin: 0 auto 0 auto;
+	width: 50%;
+	background-color: white;
 }
-	.st0{fill:red;}
-	.st1{fill:#FCDB0A;}
+*/
+	.st0{fill:#FF0000;}
+	.st1{fill:#070707;}
 	.st2{fill:#FFFFFF;}
-	.st3{fill-opacity:0;}
-	.st4{fill:url(#dTBLzUlrw_1_);}
-	.st5{fill:url(#d6BEw7KhXm_1_);}
-	.st6{fill:#070707;}
-	.st7{fill-opacity:0;stroke:#000000;stroke-width:5;}
+	.st3{fill:#FCDB0A;}
+.spiral2{
+	fill: red;
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+	animation-delay: 2s;	
+}
+.spiral{
+	fill: red;
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+}
+.dientes1{
+	fill: white;
+	animation-delay: 2s;
+}
+.eyes{
+	fill: white;
+	animation-delay: 4s;
+}
+.black{
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+	animation-delay: 4s;
 
-	.circles {
-		transform-origin: center center;
-		-webkit-transform-origin: center center;
-	}
-
-
-	.Juaguar {
-		transform-origin: center center;
-		-webkit-transform-origin: center center;
-	}
+}
+.yellow{
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+	fill: yellow;
+	animation-delay: 4s;
+}
+.yellow1{
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+	fill: yellow;
+	animation-delay: 2s;
+}
+.dientes{
+	transform-origin: top top;
+	-moz-transform-origin: right right;
+	animation-delay: 4s;
+}
+.eyes1{
+	transform-origin: center center;
+	-moz-transform-origin: center center;
+}

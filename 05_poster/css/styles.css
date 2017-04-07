@@ -1,14 +1,36 @@
 body {
-	width: 600px;
-	margin: 0 auto 0 auto;
+	width: 400px;
+	margin: 30px auto 0 auto;
 }
-
 .text {
 	position: absolute;
-	color: #43D1AC;
+	color: rgba(2, 191, 158, 0.7);
 	font-family: 'Playfair Display', serif;
-	font-size: 48px;
+	font-size: 38px;
 	text-transform: uppercase;
-	letter-spacing: 3px;
+	letter-spacing:5px;
+	line-height: 1.9;
+}
+#tercero {
+	color: rgba(33, 201, 170, 0.5);
+}
+.serial {
+	position: absolute;
+	color: rgba(2, 191, 158, 1);
+	font-family: 'Playfair Display', serif;
+	font-size: 5px;
+	text-transform: none;
+	letter-spacing: 0.3px;
 	line-height: 1.8;
 }
+#numeracion {
+	bottom: 50px;
+}
+#impresion {
+	transform: rotate(90deg);
+	transform-origin: left top 0;
+	float: right;
+	bottom: 130px;
+	right: 250px;
+}
+

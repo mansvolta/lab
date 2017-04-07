@@ -245,16 +245,19 @@
   from, to {
     -webkit-transform: translate3d(0, 0, 0);
     transform: translate3d(0, 0, 0);
+    transform: scale3d(0.75, 1.25, 1);
   }
 
   10%, 30%, 50%, 70%, 90% {
     -webkit-transform: translate3d(-10px, 0, 0);
     transform: translate3d(-10px, 0, 0);
+    transform: scale3d(0.75, 1.25, 1);
   }
 
   20%, 40%, 60%, 80% {
     -webkit-transform: translate3d(10px, 0, 0);
     transform: translate3d(10px, 0, 0);
+    transform: scale3d(0.75, 1.25, 1);
   }
 }
 
@@ -2712,8 +2715,8 @@
 @keyframes zoomIn {
   from {
     opacity: 0;
-    -webkit-transform: scale3d(.3, .3, .3);
-    transform: scale3d(.3, .3, .3);
+    -webkit-transform: scale3d(.399, .399, .399);
+    transform: scale3d(.399, .399, .399);
   }
 
   50% {
