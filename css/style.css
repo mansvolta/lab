@@ -1,9 +1,12 @@
 body {
 	margin: 0 auto 0 auto;
-	width:40%;
+	width:100%;
 	height: 30%;
 	text-align: center;
-	background-color: #f3f3f3;
+	background-color: white;
+}
+li {
+	padding: 10px;
 }
 h1 {
 	width: 100%;
@@ -15,23 +18,28 @@ h1 {
 	font-family: 'Space Mono', monospace;
 	line-height: 0.8;
 	border: 20px auto 20px auto;
+	padding: 20px;
 }
 #lista {
 	text-indent: 0.00001px;
     display: block;
 	font-size: 30px;
-	color: red;
+	color: white;
 	font-family: 'Space Mono', monospace;
 	font-weight: 700;
-	line-height: 0.8;
+	line-height: 0.8;	width:60%;
+	margin: 0 auto 0 auto;
 }
 #lista li a{
 	text-decoration: none;
 	color:red;
 }
+#lista li:hover {
+	color:black;
+	text-decoration: underline;
+}
 #lista li a:hover {
-	color:white;
-	background-color: black;
+	color:red;
 }
 small {
 	font-weight: 400;
